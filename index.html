@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
 
-	<title>Page Title</title>
+	<title>Advising Appt Form</title>
 
 	<!--Additional elements for browsers and robots go here goes here-->
 
@@ -20,6 +20,25 @@
 
 <body>
 	<!--Elements visible to users go here-->
+    <h2>Advising Appointment</h2>
+    <div class="container"> 
+        <form>
+            <label for="fname">
+                Name:
+                <input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+            </label>
+            <label for="lname">
+                Last Name:
+                <input type="text" name="lname" id="lname"  required placeholder="Lasst Name"/>
+            </label>
+            <label for="email">
+                Email:
+                <input type="email" name="email" id="email"  required placeholder="Email"/> 
+            </label>
+            
+            <input type="submit" value="Submit"/>
+        </form>
+    </div>
 </body>
 
 </html>

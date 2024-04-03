@@ -7,4 +7,33 @@
 @import "palette.css";
 html{background-color: var(--nord0);}
 
+
+/* layout */
+
+input{
+    position:absolute;
+    left:15%;
+}
+
+label{
+    display: block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.container{
+    margin:auto;
+    width:80%;
+    padding:25px;
+    border-radius: 5px;
+}
+
+/* styles */
+h2{text-align: center;}
+
+/* debug styles */
+
 html{background-color: aquamarine;}
+body{background-color:bisque}
+label{background-color: seagreen;}
+.container{background-color: azure;}
