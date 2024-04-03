@@ -23,20 +23,24 @@
     <h2>Advising Appointment</h2>
     <div class="container"> 
         <form>
-            <label for="fname">
-                Name:
-                <input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
-            </label>
-            <label for="lname">
-                Last Name:
-                <input type="text" name="lname" id="lname"  required placeholder="Lasst Name"/>
-            </label>
-            <label for="email">
-                Email:
-                <input type="email" name="email" id="email"  required placeholder="Email"/> 
-            </label>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fname">
+                    Name:
+                    <input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+                </label>
+                <label for="lname">
+                    Last Name:
+                    <input type="text" name="lname" id="lname"  required placeholder="Lasst Name"/>
+                </label>
+                <label for="email">
+                    Email:
+                    <input type="email" name="email" id="email"  required placeholder="Email"/> 
+                </label>
+                
+                <input class="submit" type="submit" value="Submit"/>
+            </fieldset>
             
-            <input type="submit" value="Submit"/>
         </form>
     </div>
 </body>

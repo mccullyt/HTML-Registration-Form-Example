@@ -13,6 +13,7 @@ html{background-color: var(--nord0);}
 input{
     position:absolute;
     left:15%;
+    width: 75%;
 }
 
 label{
@@ -26,6 +27,11 @@ label{
     width:80%;
     padding:25px;
     border-radius: 5px;
+}
+
+.submit{
+    width:initial;
+    position: initial;
 }
 
 /* styles */
