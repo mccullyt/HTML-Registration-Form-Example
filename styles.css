@@ -22,6 +22,11 @@ label{
     position: relative;
 }
 
+textarea{
+    width:100%;
+    /* height:20%; */
+}
+
 .container{
     margin:auto;
     width:80%;
@@ -33,6 +38,79 @@ label{
     width:initial;
     position: initial;
 }
+
+.reservation{
+    /* display: inline; */
+    width: initial;
+}
+
+.reservation > label { 
+    width: 5%;
+    display: inline-block;
+    padding-right: 10px;
+    
+}
+
+.reservation > input {
+    width: initial;
+    display: inline-block;
+    position:initial; 
+    /* padding-left: 5px; */
+    /* margin-left:5px; */
+
+}
+
+.classes{
+    /* display: inline-block; */
+    width: initial;
+}
+
+.classes > label { 
+    
+    width: initial;
+    display: inline-block;
+    position:initial; 
+    /* width: 10%; */
+    /* display: inline-block; */
+    padding-right: 10px;
+    
+}
+
+.classes > label > input {
+    width: initial;
+    display: inline-block;
+    position:initial; 
+    /* padding-left: 5px; */
+    /* margin-left:5px; */
+
+}
+
+
+.addinfo{
+    /* display: inline-block; */
+    width: initial;
+}
+
+.addinfo > label { 
+    
+    width: initial;
+    display: inline-block;
+    position:initial; 
+    /* width: 10%; */
+    /* display: inline-block; */
+    padding-right: 10px;
+    
+}
+
+.addinfo > label > input {
+    width: initial;
+    display: inline-block;
+    position:initial; 
+    /* padding-left: 5px; */
+    /* margin-left:5px; */
+
+}
+
 
 /* styles */
 h2{text-align: center;}

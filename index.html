@@ -22,8 +22,8 @@
 	<!--Elements visible to users go here-->
     <h2>Advising Appointment</h2>
     <div class="container"> 
-        <form>
-            <fieldset>
+        <form method="get" action="thankyou.html">
+            <fieldset>  <!--Contact information-->
                 <legend>Contact Information</legend>
                 <label for="fname">
                     Name:
@@ -38,8 +38,56 @@
                     <input type="email" name="email" id="email"  required placeholder="Email"/> 
                 </label>
                 
-                <input class="submit" type="submit" value="Submit"/>
+                
             </fieldset>
+            <fieldset class ="reservation">  <!--Reservation Request-->
+                <legend>Reservation Request</legend>
+                <input type="select" name="instructor" id="instructor" required placeholder="Instructor" />
+                <input type="select" name="month" id="month" required placeholder="Month" />
+                <input type="select" name="day" id="day" required placeholder="Day" />
+                <label for="am">
+                    AM
+                    <input type="radio" name="fname" id="am" />
+                </label>
+                <label for="pm">
+                    PM
+                    <input type="radio" name="lname" id="pm"  required placeholder="Lasst Name"/>
+                </label>
+                
+            </fieldset>
+
+            <fieldset class ="classes">  <!--Chose classes-->
+                <legend>Classes You Want to Take Next Semester: </legend>
+                
+                <label for="java">
+                    Java
+                    <input type="radio" name="java" id="java" />
+                </label>
+                <label for="csharp">
+                    C#
+                    <input type="radio" name="charp" id="csharp"  required placeholder="Lasst Name"/>
+                </label>
+                <label for="webdev">
+                    Web Dev
+                    <input type="radio" name="webdev" id="webdev" />
+                </label>
+                <label for="databases">
+                    Databases
+                    <input type="radio" name="databases" id="databases"  required placeholder="Lasst Name"/>
+                </label>
+                <label for="systems">
+                    System Analysis & Design
+                    <input type="radio" name="systems" id="systems" />
+                </label>
+                
+            </fieldset>
+
+            <fieldset class="addinfo">
+                <legend>Additional Info</legend>
+                <textarea name="addinfo" id="addinfo" placeholder="Any additional info" cols="100"></textarea>
+            </fieldset>
+
+            <input class="submit" type="submit" value="Submit"/>
             
         </form>
     </div>
