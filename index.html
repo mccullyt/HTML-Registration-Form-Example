@@ -42,16 +42,33 @@
             </fieldset>
             <fieldset class ="reservation">  <!--Reservation Request-->
                 <legend>Reservation Request</legend>
-                <input type="select" name="instructor" id="instructor" required placeholder="Instructor" />
-                <input type="select" name="month" id="month" required placeholder="Month" />
-                <input type="select" name="day" id="day" required placeholder="Day" />
+                <select name="instructors" id="instructors" required>
+                    <option value="kirsten Markely">Kirsten Markly</option>
+                    <option value="jackson lewis">Jackson Lewis</option>
+                    <option value="tiffany ford">Tiffany Ford</option>
+                </select>
+                <select name="months" id="months" required>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+                <input type="number" name="day" id="day" required placeholder="Day"  min="1" max="31" />
                 <label for="am">
                     AM
-                    <input type="radio" name="fname" id="am" />
+                    <input type="radio" name="time" value="am" />
                 </label>
                 <label for="pm">
                     PM
-                    <input type="radio" name="lname" id="pm"  required placeholder="Lasst Name"/>
+                    <input type="radio" name="time" value="pm"  required placeholder="Lasst Name"/>
                 </label>
                 
             </fieldset>
