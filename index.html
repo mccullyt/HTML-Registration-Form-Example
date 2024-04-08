@@ -20,8 +20,9 @@
 
 <body>
 	<!--Elements visible to users go here-->
-    <h2>Advising Appointment</h2>
+    
     <div class="container"> 
+        <h2>Advising Appointment</h2>
         <form method="get" action="thankyou.html">
             <fieldset>  <!--Contact information-->
                 <legend>Contact Information</legend>
@@ -64,11 +65,11 @@
                 <input type="number" name="day" id="day" required placeholder="Day"  min="1" max="31" />
                 <label for="am">
                     AM
-                    <input type="radio" name="time" value="am" />
+                    <input type="radio" name="time" value="am" required/>
                 </label>
                 <label for="pm">
                     PM
-                    <input type="radio" name="time" value="pm"  required placeholder="Lasst Name"/>
+                    <input type="radio" name="time" value="pm"  required/>
                 </label>
                 
             </fieldset>
@@ -82,7 +83,7 @@
                 </label>
                 <label for="csharp">
                     C#
-                    <input type="radio" name="charp" id="csharp"  required placeholder="Lasst Name"/>
+                    <input type="radio" name="charp" id="csharp" />
                 </label>
                 <label for="webdev">
                     Web Dev
@@ -90,7 +91,7 @@
                 </label>
                 <label for="databases">
                     Databases
-                    <input type="radio" name="databases" id="databases"  required placeholder="Lasst Name"/>
+                    <input type="radio" name="databases" id="databases"  />
                 </label>
                 <label for="systems">
                     System Analysis & Design
